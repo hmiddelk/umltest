@@ -44,8 +44,8 @@ public class WebUser
 	 * @ordered
 	 */
 	
-	public Customer customer;
-	
+	public ShoppingCart shoppincart;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -53,7 +53,7 @@ public class WebUser
 	 * @ordered
 	 */
 	
-	public ShoppingCart shoppincart;
+	public Customer customer;
 	
 	/**
 	 * <!-- begin-user-doc -->

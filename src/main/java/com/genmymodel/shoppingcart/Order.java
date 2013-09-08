@@ -74,8 +74,8 @@ public class Order
 	 * @ordered
 	 */
 	
-	public Account account;
-	
+	public Set<LineItem> items;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -83,7 +83,7 @@ public class Order
 	 * @ordered
 	 */
 	
-	public Set<LineItem> items;
+	public Account account;
 	
 	/**
 	 * <!-- begin-user-doc -->

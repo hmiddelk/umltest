@@ -29,8 +29,8 @@ public class ShoppingCart
 	 * @ordered
 	 */
 	
-	public Set<LineItem> items;
-	
+	public WebUser webuser;
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -38,7 +38,7 @@ public class ShoppingCart
 	 * @ordered
 	 */
 	
-	public WebUser webuser;
+	public Set<LineItem> items;
 	
 	/**
 	 * <!-- begin-user-doc -->
